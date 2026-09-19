@@ -3,8 +3,8 @@ import nodemailer from "nodemailer";
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "retailhub266@gmail.com",        
-    pass: "eatqqpvfrepohwif",                
+    user: "email@gmail.com",        
+    pass: "12346789",                
   },
 });
 
@@ -13,7 +13,7 @@ const sendOTP = async (email, otp) => {
     console.log("📧 Sending OTP to:", email);
     console.log("OTP:", otp)
     const info = await transporter.sendMail({
-      from: `"eatqqpvfrepohwif" <retailhub266@gmail.com>`,
+      from: `"12346789" <email@gmail.com>`,
       to: email,
       subject: "Your OTP Code",
       html: `
