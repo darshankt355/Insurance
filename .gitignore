@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+**/.next/
+
+# Archive files & Docker dumps
+*.tar
+*.zip
+*.gz
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment files
+.env*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
