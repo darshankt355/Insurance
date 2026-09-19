@@ -3,6 +3,8 @@ import nodemailer from "nodemailer";
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
+    // link:  https://myaccount.google.com/apppasswords 
+    // create your gmail id pass by using above the link, This password and your gmail ID login password both different. This password is automatically generated
     user: "email@gmail.com",        
     pass: "12346789",                
   },
